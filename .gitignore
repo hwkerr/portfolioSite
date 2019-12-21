@@ -1,0 +1,11 @@
+# ignore everything in the root except the "wp-content" directory.
+bootstrap-4.4.1-dist/*
+
+# ignore everything in dir except ext
+# dir/*
+# !dir/ext
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
