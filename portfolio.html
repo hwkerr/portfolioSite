@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Redirect page <meta http-equiv = "refresh" content = "0; url = unavailable.html"/> -->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Portfolio</title>
+  </head>
+  
+  <style>
+	.column {
+		float: left;
+		width: 50%;
+		padding: 1em;
+	}
+	.row {
+		margin: 1em;
+		border: 4px none green;
+	}
+	.row:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+  </style>
+  
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #d9dbbc;">
+    <a class="navbar-brand" href="index.html">Harrison Kerr</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+	</button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	  <ul class="navbar-nav mr-auto">
+	    <li class="nav-item">
+	      <a class="nav-link" href="index.html">Home</a>
+	    </li>
+	    <li class="nav-item">
+		  <a class="nav-link" href="about.html">About</a>
+	    </li>
+		<li class="nav-item active">
+		  <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+	    </li>
+	  </ul>
+    </div>
+  </nav>
+  
+  <body style="background-color:mintcream;">
+    <br>
+	<div style="margin:1em">
+		<div align="middle">
+			<h1><b>Portfolio</b></h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="column">
+			<img src="images/TruckSystem.png"
+				alt="screenshot from Android application"
+				align="middle"
+				style="max-width:100%; max-height:16em;
+						display:block; border:4px solid black;
+						margin-left:auto; margin-right:auto;">
+		</div>
+		<div class="column">
+			<h2 align="center">Online Rewards System</h2>
+			<h6 align="right">August-December 2019</h3>
+			<p>
+				Built an Android app from scratch in Android Studio for users of
+				a system to view and edit account information, browse a catalog,
+				and place orders of catalog items.
+				Used the LAMP model to communicate with an Amazon AWS server.
+				<a href="https://github.com/hwkerr/TruckSystem/raw/master/AppBuilds/wtt1.0.apk">Download the app</a>
+				or <a href="https://github.com/hwkerr/TruckSystem">see the full project on GitHub</a>
+				(which includes more details about the project).
+			</p>
+		</div>
+	</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
